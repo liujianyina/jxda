@@ -1,0 +1,90 @@
+@charset "utf-8";
+.login-body {
+	height: 470px;
+	margin-top: 20px;
+}
+
+.login-body-letf {
+	height: 450px;
+	width: 700px;
+	margin-left: 80px;
+	border-radius: 5px;
+}
+
+.login-box {
+	width: 380px;
+	height: 450px;
+	border: 2px solid #9bacbf;
+	border-radius: 5px;
+	margin-right: 100px;
+}
+
+.login-title {
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 2px solid #9bacbf;
+	text-align: center;
+	font-size: 18px;
+	background-color: #f9fbfe;
+	color: #2e5ea1;
+}
+
+.error-message {
+	width: 90%;
+	margin: auto;
+	margin-top: 5%;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	color: red;
+	text-align: center;
+}
+
+.login-form {
+	width: 90%;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.login-component {
+	width: 100%;
+	height: 50px;
+	margin-top: 12px;
+}
+
+.login-component input {
+	width: 100%;
+	border: 1px solid #9bacbf;
+	height: 40px;
+	text-indent: 10px;
+}
+
+.login-component img {
+	vertical-align: middle;
+	float: right;
+	cursor: pointer;
+}
+
+.input-submit {
+	background-color: #5d99dc;
+	color: white;
+}
+
+.forgert-password {
+	color: #2e5ea1;
+	font-size: 12px;
+	width: 100%;
+	margin: 10% auto;
+	text-align: center;
+}
+
+.forgert-password,
+.footer a {
+	color: #2E5EA1;
+}
+
+.forgert-password,
+.footer a:visited {
+	color: #2E5EA1;
+}

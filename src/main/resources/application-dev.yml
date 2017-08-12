@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://120.27.9.46:3306/jxdadb?characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: zxc188520
+    tomcat:
+      max-active: 50
+      max-idle: 10
+      min-idle: 1
+      initial-size: 10
+      validation-query: SELECT 1
+      test-on-borrow: true
+      test-on-return: true
+      test-while-idle: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+  http:
+    multipart:
+      max-request-size: 32MB
+      max-file-size: 32MB
+
+upload_path: c:/Users/Administrator/Downloads  #上传路径
+
